@@ -4,7 +4,7 @@
 # Copyright jarvescodes 2018-2020
 #
 # https://github.com/jarvescodes/pterodactyl-installer
-
+#
 ###########################################################
 
 # check if user is root or not
