@@ -3,7 +3,8 @@
 # pterodactyl-installer for daemon
 # Copyright jarvescodes 2018-2020
 #
-# https://github.com/jarvescodes/Pterodactyl-Installation-Script
+# https://github.com/jarvescodes/pterodactyl-installer
+#
 ###########################################################
 
 # check if user is root or not
