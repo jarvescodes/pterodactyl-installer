@@ -37,11 +37,11 @@ List of supported installation setups for panel and daemon (installations suppor
 
 Using the Pterodactyl Panel installation script:
 
-`bash <(curl -s https://raw.githubusercontent.com/parnexwebdev/Pterodactyl-Installation-Script/master/install-panel.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/jarvescodes/Pterodactyl-Installation-Script/master/install-panel.sh)`
 
 Using the Pterodactyl Daemon installation script:
 
-`bash <(curl -s https://raw.githubusercontent.com/parnexwebdev/Pterodactyl-Installation-Script/master/install-daemon.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/jarvescodes/Pterodactyl-Installation-Script/master/install-daemon.sh)`
 
 The script will guide you through the install.
 
@@ -49,8 +49,8 @@ The script will guide you through the install.
 
 # Credits
 
-`MrKaKisen`
 `Pterodactyl Team`
 `parnex`
+`jarves`
 
 
