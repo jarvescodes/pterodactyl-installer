@@ -1,9 +1,10 @@
 #!/bin/bash
 ###########################################################
 # pterodactyl-installer for panel
-# Copyright parnex 2018-2019
+# Copyright jarvescodes 2018-2020
 #
-# https://github.com/parnexwebdev/Pterodactyl-Installation-Script
+# https://github.com/jarvescodes/pterodactyl-installer
+#
 ###########################################################
 
 # check if user is root or not
@@ -53,7 +54,7 @@ ASSUME_SSL=false
 
 # DL urls
 PANEL_URL="https://github.com/pterodactyl/panel/releases/download/$VERSION/panel.tar.gz"
-CONFIGS_URL="https://raw.githubusercontent.com/jarvesus712/pterodactyl-installer/master/configs"
+CONFIGS_URL="https://raw.githubusercontent.com/jarvescodes/pterodactyl-installer/master/configs"
 
 # paths
 SOURCES_PATH="/etc/apt/sources.list"

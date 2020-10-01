@@ -1,9 +1,10 @@
 #!/bin/bash
 ###########################################################
 # pterodactyl-installer for daemon
-# Copyright parnex 2018-2019
+# Copyright jarvescodes 2018-2020
 #
-# https://github.com/parnexwebdev/Pterodactyl-Installation-Script
+# https://github.com/jarvescodes/pterodactyl-installer
+#
 ###########################################################
 
 # check if user is root or not
@@ -40,7 +41,7 @@ VERSION="$(get_latest_release "pterodactyl/daemon")"
 
 # DL urls
 DL_URL="https://github.com/pterodactyl/daemon/releases/download/$VERSION/daemon.tar.gz"
-CONFIGS_URL="https://raw.githubusercontent.com/jarvesus712/pterodactyl-installer/master/configs"
+CONFIGS_URL="https://raw.githubusercontent.com/jarvescodes/pterodactyl-installer/master/configs"
 
 # variables
 OS="debian"
@@ -296,7 +297,7 @@ function main {
 function goodbye {
   echo ""
   print_brake 70
-  echo "* Installation finished."
+  echo "* Installation finished. Thanks for using the script <3"
   echo ""
   echo "* Make sure you create the node within the panel and then "
   echo "* copy the config to the node. You may then start the daemon using "
